@@ -1,0 +1,1012 @@
+material
+name clear
+diffuse 0 0 0 0
+nolighting
+nosorting
+noculling
+noradar
+end
+define stg-0
+
+include ./obs/ahs3-pyrwalk.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+base
+ position 0 200 5
+size 15 15 2
+color 2
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-0
+group stg-0
+name stg-0
+rot 0
+shift -465 0 0
+end
+
+ 
+define stg-1
+
+include ./obs/ahs3-pyrwalk.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-1
+group stg-1
+name stg-1
+rot 0
+shift -310 0 0
+end
+
+ 
+define stg-2
+
+include ./obs/ahs3-bounce-house-green.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-2
+group stg-2
+name stg-2
+rot 0
+shift -155 0 0
+end
+
+ 
+define stg-3
+
+include ./obs/ahs3-waterfall.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-3
+group stg-3
+name stg-3
+rot 0
+shift 0 0 0
+end
+
+ 
+define stg-4
+
+include ./obs/tainn_c.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-4
+group stg-4
+name stg-4
+rot 0
+shift 155 0 0
+end
+
+ 
+define stg-5
+
+include ./obs/ahs3-maze.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-5
+group stg-5
+name stg-5
+rot 0
+shift 310 0 0
+end
+
+ 
+define stg-6
+
+include ./obs/tainn_c.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-6
+group stg-6
+name stg-6
+rot 0
+shift 465 0 0
+end
+
+ 
+define stg-7
+
+include ./obs/ahs3-bounce-house-green.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-7
+group stg-7
+name stg-7
+rot 0
+shift -465 0 150
+end
+
+ 
+define stg-8
+
+include ./obs/ahs3-3d-grid.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-8
+group stg-8
+name stg-8
+rot 0
+shift -310 0 150
+end
+
+ 
+define stg-9
+
+include ./obs/ahs3-bounce-house-green.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-9
+group stg-9
+name stg-9
+rot 0
+shift -155 0 150
+end
+
+ 
+define stg-10
+
+include ./obs/tainn_c.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-10
+group stg-10
+name stg-10
+rot 0
+shift 0 0 150
+end
+
+ 
+define stg-11
+
+include ./obs/tainn_c.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-11
+group stg-11
+name stg-11
+rot 0
+shift 155 0 150
+end
+
+ 
+define stg-12
+
+include ./obs/ahs3-wall.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-12
+group stg-12
+name stg-12
+rot 0
+shift 310 0 150
+end
+
+ 
+define stg-13
+
+include ./obs/tainn_c.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-13
+group stg-13
+name stg-13
+rot 0
+shift 465 0 150
+end
+
+ 
+define stg-14
+
+include ./obs/tainn_c.bzw
+box
+pos 0 0 0
+ size 75 150 5
+end
+
+box
+ pos 0 200 0
+size 75 50 5
+end
+
+box
+ pos 0 -200 0
+size 75 50 5
+end
+
+teleporter in
+position 0 200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+teleporter out
+position 0 -200 5
+size .125 10 15
+border .25
+rotation 90
+end
+
+box
+pos 78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos -78 0 0
+size 3 250 400
+matref clear
+end
+box
+pos 0 253 0
+size 78 3 400
+matref clear
+end
+
+box
+pos 0 -253 0
+size 78 3 400
+matref clear
+end
+
+enddef # stg-14
+group stg-14
+name stg-14
+rot 0
+shift -465 0 300
+end
+
+ 
+link
+ from stg-0:out:*
+to stg-1:in:b
+end
+
+link
+ from stg-1:out:*
+to stg-2:in:b
+end
+
+link
+ from stg-2:out:*
+to stg-3:in:b
+end
+
+link
+ from stg-3:out:*
+to stg-4:in:b
+end
+
+link
+ from stg-4:out:*
+to stg-5:in:b
+end
+
+link
+ from stg-5:out:*
+to stg-6:in:b
+end
+
+link
+ from stg-6:out:*
+to stg-7:in:b
+end
+
+link
+ from stg-7:out:*
+to stg-8:in:b
+end
+
+link
+ from stg-8:out:*
+to stg-9:in:b
+end
+
+link
+ from stg-9:out:*
+to stg-10:in:b
+end
+
+link
+ from stg-10:out:*
+to stg-11:in:b
+end
+
+link
+ from stg-11:out:*
+to stg-12:in:b
+end
+
+link
+ from stg-12:out:*
+to stg-13:in:b
+end
+
+link
+ from stg-13:out:*
+to stg-14:in:b
+end
+
+link
+from stg-14:out:*
+to win:*
+end
+

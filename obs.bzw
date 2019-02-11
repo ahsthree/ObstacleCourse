@@ -1,0 +1,98 @@
+world
+noWalls
+end
+
+options
+-ms 0
+-mp 0,0,200,0,0,25
+-autoTeam
+-set _drawClouds 0
+-set _drawMountains 0
+-set _drawCelestial 0
+-set _explodeTime 3
+-set _worldSize 1600
+-set _radarLimit 800
+-set _skyColor black
+-loadplugin /usr/local/lib/bzflag/HoldTheFlag.so,team=GREEN
+-a 0 0
+-c
+-j
+-sb
+-fb
+-set _noClimb 0
+end
+
+physics
+name dead
+death How did you end up here? leave a /report as to how.
+end
+
+
+
+material
+name GroundMaterial
+diffuse 0 0 0 1
+end
+
+
+
+
+
+base
+pos 0 300 0
+size 35 35 5
+color 1
+end
+
+zone
+pos -465 200 7
+size 10 10 1
+team 2
+end
+
+teleporter win
+pos 0 300 5
+size .125 4 10
+border 2
+end
+
+zone
+pos 0 300 5
+size 30 30 1
+zoneflag G* 100
+end
+
+include include.bzw
+
+
+box
+pos 0 337 0 
+size 43 3 50
+matref clear
+end
+
+box
+pos 0 263 0 
+size 43 3 50
+matref clear
+end
+
+box
+pos 37 300 0
+size 3 43 50
+matref clear
+end
+
+box
+pos -37 300 0
+size 3 43 50
+matref clear
+end
+
+box
+pos 0 0 0
+size 800 800 .5
+phydrv dead
+matref clear
+end
+
