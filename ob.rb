@@ -1,6 +1,22 @@
 #!/usr/bin/ruby
 
 
+dir="./obs/"
+
+unless Dir.exist?(dir)
+  abort "Error: obstacle directory '#{dir}' not found. Create it and add obstacle files (see README.txt)."
+end
+
+files = Dir.foreach(dir).select { |x| File.file?("#{dir}/#{x}") }
+
+if files.empty?
+  abort "Error: no obstacle files found in '#{dir}'. Add obstacle files before generating the course (see README.txt)."
+end
+
+inc=files.count
+
+puts "#{files} #{inc}"
+
 File.open("include.bzw","w") do |bzw|
 cnt=0
 mxcnt=14
@@ -10,15 +26,6 @@ x=-465
 
 
 bzw.puts "material\nname clear\ndiffuse 0 0 0 0\nnolighting\nnosorting\nnoculling\nnoradar\nend"
-files=Array.new
-
-dir="./obs/"
-
-files = Dir.foreach(dir).select { |x| File.file?("#{dir}/#{x}") }
-
-inc=files.count
-
-puts "#{files} #{inc}"
 
 while cnt <= mxcnt
 
